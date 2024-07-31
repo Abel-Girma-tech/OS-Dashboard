@@ -37,7 +37,8 @@ function App() {
 
   return (
     <div id="App">
-      <h1>System Information</h1>
+      <h1>Bella I.T Solutions</h1>
+      <h2>System Information Dashboard</h2>
       <div id="memory_div">
         <div id="total_Memory">Total Memory (RAM): {systemData.totalMemory}</div>
         <div id="free_Memory">Free Memory (RAM): {systemData.freeMemory}</div>
