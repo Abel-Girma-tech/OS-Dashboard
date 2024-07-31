@@ -17,7 +17,7 @@ function App() {
   axios.defaults.withCredentials = true;
 
   useEffect(() => {
-    axios.get('http://localhost:4000/os/data')
+    axios.get('https://os-dashboard-two.vercel.app/os/data')
       .then((res) => {
         setSystemData({
           totalMemory: res.data.totalMemory,
